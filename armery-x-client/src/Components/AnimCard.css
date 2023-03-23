@@ -1,0 +1,15 @@
+.slide-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.slide-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+}
